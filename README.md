@@ -112,8 +112,13 @@ Save the above content in a file named `README.md` in the root directory of your
    git add README.md
    ```
 
-```
-## Conclusion
-By following these steps, you should be able to run your Express server, test the `/api/greet` endpoint successfully, and push your project to GitHub.
+## Installation
 
-```
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/TechCoder645/Younglabs_Assessment.git
+   ```
+
+## Conclusion
+
+By following these steps, you should be able to run your Express server, test the `/api/greet` endpoint successfully, and push your project to GitHub.
