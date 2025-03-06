@@ -13,14 +13,15 @@ The response message in the `/api/greet` endpoint has been updated to include yo
 2. Navigate to your project directory:
    ```sh
    cd /path/to/your/project
+   cd backend
    ```
 3. Start the server:
    ```sh
-   node server.js
+   nodemon app.js
    ```
    or, if using `nodemon` for automatic restarts:
    ```sh
-   nodemon server.js
+    nodemon app.js
    ```
 
 ### Open the Webpage
