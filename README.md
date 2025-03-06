@@ -112,12 +112,7 @@ Save the above content in a file named `README.md` in the root directory of your
    git add README.md
    ```
 
-## Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/TechCoder645/Younglabs_Assessment.git
-   ```
 
 ## Conclusion
 
