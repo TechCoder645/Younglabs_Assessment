@@ -4,7 +4,7 @@
 This project is a simple Express.js API that returns a greeting message including your name.
 
 ## Modified Response Message
-The response message in the `/api/greet` endpoint has been updated to include your name: **From Shashi**.
+The response message in the `/api/greet` endpoint has been updated to include your name: **From Shashi Bhushan**.
 
 ## Running the Project
 
