@@ -123,7 +123,7 @@ By following these steps, you should be able to run your Express server, test th
 ### 1️⃣ API Response in Postman
 Below is a screenshot of the API response when tested in Postman:
 
-![Postman Response](screenshots/postman_response.png)
+![Postman Response](https://github.com/TechCoder645/Younglabs_Assessment/blob/main/public/images/API.png)
 
 ---
 
