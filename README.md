@@ -137,6 +137,6 @@ Here’s how the greeting appears on the webpage:
 ### 3️⃣ Browser API Request
 When tested in the browser:
 
-![Browser API Response](screenshots/browser_response.png)
+![Browser API Response](https://github.com/TechCoder645/Younglabs_Assessment/blob/main/public/images/Browser.png)
 
 
