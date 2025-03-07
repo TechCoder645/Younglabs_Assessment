@@ -130,7 +130,7 @@ Below is a screenshot of the API response when tested in Postman:
 ### 2️⃣ Frontend UI Output
 Here’s how the greeting appears on the webpage:
 
-![Webpage Output](screenshots/webpage_output.png)
+![Webpage Output](https://github.com/TechCoder645/Younglabs_Assessment/blob/main/public/images/Frontend.png)
 
 ---
 
