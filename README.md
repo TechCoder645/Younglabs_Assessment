@@ -117,3 +117,31 @@ Save the above content in a file named `README.md` in the root directory of your
 ## Conclusion
 
 By following these steps, you should be able to run your Express server, test the `/api/greet` endpoint successfully, and push your project to GitHub.
+
+## Output
+
+### 1️⃣ API Response in Postman
+Below is a screenshot of the API response when tested in Postman:
+
+![Postman Response](screenshots/postman_response.png)
+
+---
+
+### 2️⃣ Frontend UI Output
+Here’s how the greeting appears on the webpage:
+
+![Webpage Output](screenshots/webpage_output.png)
+
+---
+
+### 3️⃣ Browser API Request
+When tested in the browser:
+
+![Browser API Response](screenshots/browser_response.png)
+
+---
+
+## 🎉 Project Successfully Working!
+Everything is working correctly. Now, you can **deploy the project on Vercel or Render** and update the README with the **live demo link**.
+
+
