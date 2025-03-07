@@ -1,13 +1,15 @@
 const mongoose = require("mongoose");
-const dbgr = require("debug")('development: mongoose');
-const config = require("config");
+require('dotenv').config();
 
-mongoose.connect(`${config.get("MONGODB_URI")}`)
-.then(function(){
-    dbgr("Connection Successful");
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/younglabs';
+
+mongoose.connect(MONGODB_URI)
+.then(() => {
+    console.log("Database connected successfully");
 })
-.catch(function(err){
-    console.log(err);
+.catch((err) => {
+    console.error("Database connection error:", err);
+    process.exit(1);
 });
 
-module.exports = mongoose.Connection;
+module.exports = mongoose;

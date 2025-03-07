@@ -1,19 +1,23 @@
-document.getElementById('greetButton').addEventListener('click', async () => {
+document.getElementById('greetButton').addEventListener('click', getGreeting);
+
+function getGreeting() {
     const name = document.getElementById('nameInput').value;
     if (!name) {
-        alert('Please enter your name');
+        alert("Name is required.");
         return;
     }
 
-    try {
-        const response = await fetch(`http://localhost:3000/api/greet?name=${name}`);
-        const data = await response.json();
-        if (response.ok) {
-            document.getElementById('greetingMessage').textContent = data.message;
-        } else {
-            document.getElementById('greetingMessage').textContent = data.error;
-        }
-    } catch (error) {
-        document.getElementById('greetingMessage').textContent = 'Error: Unable to fetch greeting';
-    }
-});
+    fetch(`http://localhost:5000/api/greet?name=${name}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                document.getElementById('greetingMessage').innerText = data.error;
+            } else {
+                document.getElementById('greetingMessage').innerText = data.message;
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('greetingMessage').innerText = 'Unable to fetch greeting';
+        });
+}
